@@ -1,18 +1,58 @@
 .banner img {
-  height: 600px;
+  height: 400px;
   width: 100%;
   object-fit: cover;
   filter: brightness(70%);
+  animation: fadeIn 2s ease forwards; /* Animação leve na imagem do banner */
+  opacity: 0;
 }
 
 .card-img-overlay {
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-  padding: 2rem;
-  border-radius: 8px;
+  color: white;     /* mantém o texto branco */
+  padding: 1.5rem 1rem;
 }
 
-.card-title {
-  font-size: 2.2rem;
-  font-weight: bold;
+.card-img-overlay h1,
+.card-img-overlay p {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+
+/* Efeitos visuais com @keyframes */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* Nova animação com delay (tempo entre as entradas) */
+.banner-texto {
+  opacity: 0;
+  animation: subirAparecer 1s ease forwards;
+}
+
+/* Aplica delay diferente pra cada linha */
+.banner-texto-1 {
+  animation-delay: 0.5s;
+}
+
+.banner-texto-2 {
+  animation-delay: 1.2s;
+}
+
+.banner-texto-3 {
+  animation-delay: 2s;
+}
+
+/* Reutilizando sua animação */
+@keyframes subirAparecer {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
