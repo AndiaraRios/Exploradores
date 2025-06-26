@@ -1,9 +1,13 @@
+import logo from '../assets/logo.png';
+import texto from '../assets/texto.png';
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top corNav">
       <div className="container-fluid">
-        <a className="navbar-brand text-black" href="#">
-          EXPLORADORES URBANOS
+        <a className="navbar-brand d-flex align-items-center gap-2" href="#"> 
+          <img src={logo} alt="Logo Exploradores Urbanos" className="logo-navbar" /> 
+          <img src={texto} alt="Texto: Exploradores Urbanos" style={{ height: '50px' }} />
         </a>
         <button
           className="navbar-toggler"
