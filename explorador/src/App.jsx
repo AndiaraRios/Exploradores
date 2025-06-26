@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import './styles/style-navbar.css';
 import Banner from './components/Banner';
 import Planejar from './components/Planejar';
+import Carrossel from './components/Carrossel';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Banner />
       <Planejar />
+      <Carrossel />
     </>
   );
 }
