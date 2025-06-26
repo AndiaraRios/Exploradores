@@ -5,6 +5,7 @@ import Planejar from './components/Planejar';
 import Carrossel from './components/Carrossel';
 import Destinos from './components/Destinos';
 import Opcoes from './components/Opcoes';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Carrossel />
       <Destinos />
       <Opcoes />
+      <Footer />
     </>
   );
 }

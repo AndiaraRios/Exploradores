@@ -1,3 +1,5 @@
+import '../styles/style-footer.css';
+
 function Footer() {
   return (
     <footer className="corFooter text-black py-4 mt-5">
