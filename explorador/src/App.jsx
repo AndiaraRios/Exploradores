@@ -3,7 +3,8 @@ import './styles/style-navbar.css';
 import Banner from './components/Banner';
 import Planejar from './components/Planejar';
 import Carrossel from './components/Carrossel';
-
+import Destinos from './components/Destinos';
+import Opcoes from './components/Opcoes';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Banner />
       <Planejar />
       <Carrossel />
+      <Destinos />
+      <Opcoes />
     </>
   );
 }
