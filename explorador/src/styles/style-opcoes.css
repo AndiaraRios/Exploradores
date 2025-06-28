@@ -51,3 +51,28 @@
 .btn-destaque:hover {
   background-color: #e0a800;
 }
+
+/* imagens cards opções */
+.logo-card-opcao,
+.globo-card-opcao,
+.mapa-card-opcao,
+.aviao-card-opcao {
+width: 100%;
+max-width: 200px; /* controla o tamanho máximo /
+height: auto;
+display: block;
+margin: 0 auto 10px auto; / centraliza horizontalmente e dá um espaço abaixo */
+padding-top: 10px;
+}
+
+/*configuração card opções */
+.card-body {
+display: flex;
+flex-direction: column;
+justify-content: space-between; /* Distribui o conteúdo com espaço entre eles */
+height: 100%;
+}
+
+.card-body a.btn-destaque {
+margin-top: auto; /* Garante que o botão fique na parte inferior */
+}
