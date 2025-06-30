@@ -5,9 +5,9 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top corNav">
       <div className="container-fluid">
-        <a className="navbar-brand d-flex align-items-center gap-2" href="#"> 
+        <a className="navbar-brand d-flex align-items-center" href="#"> 
           <img src={logo} alt="Logo Exploradores Urbanos" className="logo-navbar" /> 
-          <img src={texto} alt="Texto: Exploradores Urbanos" style={{ height: '50px' }} />
+          <img src={texto} alt="Texto: Exploradores Urbanos" style={{ height: '65px', marginLeft: '-4px' }} />
         </a>
         <button
           className="navbar-toggler"

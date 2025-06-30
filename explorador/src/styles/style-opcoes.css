@@ -58,10 +58,10 @@
 .mapa-card-opcao,
 .aviao-card-opcao {
 width: 100%;
-max-width: 200px; /* controla o tamanho máximo /
+max-width: 200px; /* controla o tamanho máximo */
 height: auto;
 display: block;
-margin: 0 auto 10px auto; / centraliza horizontalmente e dá um espaço abaixo */
+margin: 0 auto 10px auto; /* centraliza horizontalmente e dá um espaço abaixo */
 padding-top: 10px;
 }
 
